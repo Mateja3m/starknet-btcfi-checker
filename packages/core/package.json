@@ -1,0 +1,23 @@
+{
+  "name": "@starknet-btcfi-checker/core",
+  "version": "0.1.0",
+  "description": "Read-only Starknet BTCFi readiness engine.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsc -p tsconfig.test.json && node --test .test-dist/tests/*.test.js"
+  },
+  "keywords": [
+    "starknet",
+    "btcfi",
+    "strkbtc",
+    "readiness"
+  ],
+  "license": "MIT"
+}
+
