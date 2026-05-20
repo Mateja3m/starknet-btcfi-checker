@@ -51,7 +51,3 @@ npm run build
 Live Starknet integrations are intentionally not included in this PoC. A future live adapter should be optional, read-only, and configured through public inputs such as RPC URL, wallet address, token address, and chain ID.
 
 Do not add private keys, signing, transaction submission, or custody flows.
-
-## License
-
-MIT License. Copyright (c) 2026 3M Code Solution.
